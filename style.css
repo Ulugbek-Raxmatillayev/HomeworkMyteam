@@ -1,0 +1,244 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  padding: 40px 90px;
+  background: #014E56;
+}
+.header .navbar {
+  display: flex;
+  width: 200%;
+  height: 90%;
+  align-items: center;
+}
+.header .navbar .list {
+  width: 100%;
+  padding-left: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+.header .navbar .list .list_item {
+  color: #fff;
+  font-family: sans-serif;
+}
+.header .btn_box {
+  position: relative;
+  display: flex;
+  margin-top: -2.5rem;
+  left: 790px;
+}
+.header .btn_box .contact_us {
+  padding: 1rem 3rem;
+  border-radius: 30px;
+  border: #fff 1px solid;
+  background: #014E56;
+  color: #fff;
+  transition: 0.5s;
+}
+.header .btn_box .contact_us:hover {
+  border: #fff 1px solid;
+  background: #fff;
+  color: #014E56;
+}
+
+.main .hero_page {
+  max-width: 100%;
+  height: 80.6vh;
+  background: #014E56;
+}
+.main .hero_page .img {
+  position: relative;
+  padding-top: 6rem;
+}
+.main .hero_page .container {
+  padding: 40px 90px;
+  margin-top: -15.5rem;
+  display: flex;
+}
+.main .hero_page .container .title {
+  padding-left: 90px;
+  font-size: 64px;
+  font-family: sans-serif;
+  width: 70%;
+  color: #fff;
+}
+.main .hero_page .container .title span {
+  color: #F67E7E;
+}
+.main .hero_page .container .article {
+  margin-top: 7rem;
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+.main .hero_page .img-2 {
+  padding-left: 790px;
+  padding-top: 63px;
+}
+.main .about_page {
+  width: 100%;
+  height: 127.5vh;
+  padding: 140px 100px;
+  background: #012F34;
+}
+.main .about_page .row {
+  display: flex;
+}
+.main .about_page .row .col:nth-child(2) {
+  margin-left: -12.5rem;
+}
+.main .about_page .row .col .title h2 {
+  font-size: 48px;
+  width: 55%;
+  color: #fff;
+  font-family: sans-serif;
+}
+.main .about_page .row .col .list_about .list_item {
+  display: flex;
+  gap: 1rem;
+  font-family: sans-serif;
+  margin-bottom: 3.5rem;
+}
+.main .about_page .row .col .list_about .list_item .description h4 {
+  padding-bottom: 20px;
+  color: #F67E7E;
+}
+.main .about_page .row .col .list_about .list_item .description p {
+  line-height: 25px;
+  color: #fff;
+}
+.main .about_page .img-3 {
+  margin-left: 71.75rem;
+}
+.main .result_page {
+  width: 100%;
+  height: 140vh;
+  background: #014E56;
+  font-family: sans-serif;
+}
+.main .result_page .title_center {
+  text-align: center;
+  padding-top: 120px;
+  font-size: 24px;
+  width: 53%;
+  margin-left: 19.5rem;
+  color: #fff;
+}
+.main .result_page .title_center span {
+  color: #79C8C7;
+}
+.main .result_page .container {
+  padding: 70px 90px;
+}
+.main .result_page .row {
+  display: flex;
+}
+.main .result_page .row .col {
+  text-align: center;
+  width: 100%;
+}
+.main .result_page .row .col .text {
+  color: #fff;
+  padding-bottom: 40px;
+}
+.main .result_page .row .col .name .name_text {
+  color: #79C8C7;
+  padding-bottom: 5px;
+}
+.main .result_page .row .col .subject .subject_text {
+  color: #fff;
+  padding-bottom: 40px;
+}
+.main .result_page .img-5 {
+  margin-left: 71.7rem;
+  margin-top: 1.5rem;
+}
+.main .advertising_page {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  background: #F67E7E;
+  align-items: center;
+}
+.main .advertising_page .img-6 {
+  margin-top: 3.05rem;
+}
+.main .advertising_page .title h2 {
+  padding-left: 90px;
+  padding-right: 240px;
+  font-size: 43px;
+  font-family: sans-serif;
+}
+.main .advertising_page .btn button {
+  padding: 1rem 3rem;
+  border-radius: 30px;
+  border: #012F34 2px solid;
+  background: transparent;
+  color: #012F34;
+  transition: 0.5s;
+}
+.main .advertising_page .btn button:hover {
+  border: #012F34 2px solid;
+  background: #012F34;
+  color: #fff;
+}
+
+.footer_page {
+  width: 100%;
+  height: 30vh;
+  background: #002529;
+  padding-top: 40px;
+  padding-left: 90px;
+  padding-right: 90px;
+  font-family: sans-serif;
+  color: #79C8C7;
+}
+.footer_page .row {
+  display: flex;
+}
+.footer_page .row .col {
+  width: 100%;
+}
+.footer_page .row .col .list {
+  width: 50%;
+  line-height: 30px;
+}
+.footer_page .row .col .icons_programs {
+  margin-left: 7.5rem;
+  padding-bottom: 75px;
+}
+.footer_page .row .col .icons_programs img {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
